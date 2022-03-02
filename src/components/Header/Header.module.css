@@ -1,0 +1,41 @@
+.container {
+  padding: 50px 30px;
+  text-align: center;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 30px;
+  background-color: rgb(115, 211, 233);
+  min-height: 85vh;
+}
+
+.heading {
+  margin: 0 auto;
+  max-width: 500px;
+  color: rgb(63, 61, 61);
+  font-size: 3.1rem;
+  line-height: 4.1rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.heading span {
+  background-clip: text;
+  background-image: linear-gradient(to right, #3d657c, #180580);
+  color: transparent;
+}
+
+.right img {
+  width: 400px;
+}
+
+.created p {
+  text-align: right;
+  background-clip: text;
+  background-image: linear-gradient(to right, #212b31, #0a032e);
+  color: transparent;
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  margin-right: 20px;
+}
